@@ -1,0 +1,362 @@
+javapath:
+  Java8: /resources/java8/bin/java
+  Java11: /resources/java11/bin/java
+  open: open
+redis:
+  host: 127.0.0.1
+  port: 6379
+
+Categories:
+  - CategoryName: 信息收集
+    Tasks:
+      - TaskName: Fofa_search
+        PATH: resources/info/Fofa_search/fofa_search.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: webfinder
+        PATH: resources/info/webfinder/webfinder-next.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: scandir3.0
+        PATH: resources/info/dirscan_3.0/scandir-3.0.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: mitan v1.11
+        PATH: resources/info/mitan1.11/mitan-jar-with-dependencies.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: xray图形化工具
+        PATH: resources/info/xray/super-xray-1.7.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: gorailgun v1.5.5
+        PATH: resources/comprehensive/gorailgun-normal/gorailgun-normal-1.5.5.app
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: GitHack
+        PATH: resources/info/GitHack/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: swagger-hack
+        PATH: resources/info/swagger-hack/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: heapdump
+        PATH: resources/info/heapdump/.
+        VALUE: Open
+        COMMAND: .
+        Optional:
+      - TaskName: svnExploit
+        PATH: resources/info/svnExploit/.
+        VALUE: Open
+        COMMAND: .
+        Optional:
+      - TaskName: ds_store_exp
+        PATH: resources/info/ds_store_exp/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: fscan
+        PATH: resources/info/fscan/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: netspy
+        PATH: resources/info/netspy/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+
+
+  - CategoryName: webshell管理工具
+    Tasks:
+      - TaskName: 哥斯拉 v4.0.1
+        PATH: resources/webshell/Godzilla/godzilla.jar
+        VALUE: Java11
+        COMMAND: -jar
+        Optional: -Xdock:icon=godzilla.icns -Dfile.encoding=UTF-8
+      - TaskName: 中国蚁剑 v2.1.15
+        PATH: resources/webshell/AntSword/AntSword.app
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: 冰蝎 v4.1
+        PATH: resources/webshell/Behinder_v4.1.t00ls/Behinder.jar
+        VALUE: Java11
+        COMMAND: -jar
+        Optional: -Xdock:icon=Behinder.icns -Dfile.encoding=UTF-8
+      - TaskName: 冰蝎 v3.0.11
+        PATH: resources/webshell/Behinder_v3.0.11/Behinder.jar
+        VALUE: Java11
+        COMMAND: -jar
+        Optional: -Xdock:icon=Behinder.icns -Dfile.encoding=UTF-8
+
+      - TaskName: 冰蝎魔改 v3.3.2
+        PATH: resources/webshell/Behinder-Mode/Behinder-Mode.jar
+        VALUE: Java11
+        COMMAND: -jar
+        Optional: -Xdock:icon=Behinder.icns -Dfile.encoding=UTF-8
+
+      - TaskName: 天蝎 v1.0
+        PATH: resources/webshell/TianXie/Tianxie.jar
+        VALUE: Java11
+        COMMAND: -jar
+        Optional:
+      - TaskName: Webshell生成 v1.2.4
+        PATH: resources/webshell/Webshell_Generate/Webshell_Generate-1.2.4.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+  - CategoryName: Framework_utilization
+    Tasks:
+      - TaskName: shiro_attack v4.7
+        PATH: resources/framework/shiro/shiro_attack-4.7/shiro_attack-4.7.0-SNAPSHOT-all.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: Pyke-Shiro
+        PATH: resources/framework/shiro/shiro_attack2/Pyke-Shiro_0.3.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: Shiro550NoCC
+        PATH: resources/framework/shiro/Shiro-550-with-NoCC.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: Nacos漏洞利用工具
+        PATH: resources/framework/Nacos/NacosExploitGUI_v4.0.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: JenKins漏洞利用工具
+        PATH: resources/framework/JenKins/JenkinsExploit-GUI-1.3-SNAPSHOT.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: Jboss漏洞利用
+        PATH: resources/framework/jboss/JavaJboss.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: Ruoyi综合利用
+        PATH: resources/framework/Ruoyi/ruoyiVuln.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: ThinkphpGUI
+        PATH: resources/framework/thinkphp/ThinkphpGUI.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: SpringBootExploit v1.3
+        PATH: resources/framework/Spring/SpringBootExploit-1.3-SNAPSHOT-all.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: Struts2 v19.23
+        PATH: resources/framework/struts2/struts2_19.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: WeblogicTool v1.3
+        PATH: resources/framework/weblogic/WeblogicTool_1.3.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: AttackTomcat利用工具
+        PATH: resources/framework/tomcat/AttackTomcat.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: druid利用工具
+        PATH: resources/framework/druid/druid_sessions-1.0-SNAPSHOT.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: Thelostworld OA v1.1
+        PATH: resources/comprehensive/Thelostworld_OA/Thelostworld_OA.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: LiqunKit 工具箱 v1.6.2
+        PATH: resources/comprehensive/LiqunKit/LiqunKit_1.6.2.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: 2023 0day利用
+        PATH: resources/comprehensive/day2023/day2023.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: Hvv综合利用
+        PATH: resources/comprehensive/HVVExploitApply/HVVExploitApply.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: APT Tools魔改
+        PATH: resources/comprehensive/apt/IWannaGetAll.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: 0x7eTeamTools
+        PATH: resources/comprehensive/0x7eTeamTools/0x7e.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: MyExploit
+        PATH: resources/comprehensive/MyExploit/MYExploit.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: poc2jar综合利用工具
+        PATH: resources/comprehensive/poc2jar-MACOS/poc2jar.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: hyacinth综合利用工具
+        PATH: resources/comprehensive/hyacinth/hyacinth.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: ysoserial
+        PATH: resources/comprehensive/ysoserial/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+
+  - CategoryName: Database_utilization_tools
+    Tasks:
+      - TaskName: OracleShell v0.1
+        PATH: resources/databases/OracleShell/oracleShell.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: postgersql利用工具
+        PATH: resources/databases/postgre/postgreUtil-1.0-SNAPSHOT-jar-with-dependencies.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: MDUT v2.1.1
+        PATH: resources/databases/MDUT/MDUT.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: rogue_mysql_server
+        PATH: resources/other/rogue_mysql_server/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+
+
+  - CategoryName: Proxy_tools
+    Tasks:
+      - TaskName: Erfrp
+        PATH: resources/proxy/Erfrp/.
+        VALUE: Open
+        COMMAND: .
+        Optional:
+
+      - TaskName: Neo-reGeorg-5
+        PATH: resources/proxy/Neo-reGeorg-5.0.1/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: Venom
+        PATH: resources/proxy/Venom/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+
+  - CategoryName: Other_tools
+    Tasks:
+      - TaskName: 蓝队分析工具箱 V0.92
+        PATH: resources/other/blue/BlueTeamTools.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: oss-browser
+        PATH: resources/other/oss-browser-darwin-x64/oss-browser.app
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: API-Tool v1.2
+        PATH: resources/comprehensive/MyExploit/MYExploit.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: PotatoTool v1.1
+        PATH: resources/other/PotatoTool/PotatoTool-1.1-jdk11.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: JMG内存马生成 v1.0.6
+        PATH: resources/other/jMG/jMG-1.0.6-GUI.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: RequestTemplate
+        PATH: resources/other/RequestTemplate/RequestTemplate.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: 内网横向工具
+        PATH: resources/other/gogogo-jar-with-dependencies/gogogo-jar-with-dependencies.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: DecryptTools加解密工具
+        PATH: resources/other/DecryptTools/DecryptTools.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+
+      - TaskName: JD-GUI 1.6.6
+        PATH: resources/other/JD-GUI1.6.6/jd-gui-1.6.6.jar
+        VALUE: Java8
+        COMMAND: -jar
+        Optional:
+      - TaskName: jadx-gui
+        PATH: resources/other/jadx-1.5.0/bin/jadx-gui
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: apktool
+        PATH: resources/other/apktool/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: recode
+        PATH: resources/other/recode/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+      - TaskName: sqlmap
+        PATH: resources/other/sqlmap/.
+        VALUE: Open
+        COMMAND:
+        Optional:
+
